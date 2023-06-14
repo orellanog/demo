@@ -1,0 +1,24 @@
+{
+  "configs": [
+    "demo.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "ar.com.mulesoft:demo:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "log4j2.xml",
+        "demo.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
